@@ -1,5 +1,6 @@
 package ir.mehdizebhi.moviecatalogservice.resources;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import ir.mehdizebhi.moviecatalogservice.models.CatalogItem;
 import ir.mehdizebhi.moviecatalogservice.models.Movie;
 import ir.mehdizebhi.moviecatalogservice.models.Rating;
